@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+
 *Reset CSS*/
 *{
     margin: 0;
@@ -16,10 +19,10 @@ a:hover{
 }
 /* Adding Fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
 
 .header{
-    background: linear-gradient(-40deg, #FBF1D5, #fff);
+    background: linear-gradient(-40deg, whitesmoke, #fff);
     
 }
 
@@ -46,7 +49,7 @@ a:hover{
     transition: 0.5s all ease;
 }
 button.nav-button{
-    background:#FFBA00;
+    background:blue;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 5px 10px;
@@ -62,7 +65,7 @@ button.nav-button{
     height: 100%;
 }
 .highlight{
-    color: #FFBA00;
+    color: blue;
 }
 .left-content h2 {
     font-family: 'Roboto', sans-serif;
@@ -78,10 +81,10 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #64707D;
+    color: whitesmoke;
 }
 .call-to-action button {
-    background: #FFBA00;
+    background:  #070A57;
     border: none;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
@@ -92,7 +95,7 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: #FFBA00;
+    color:  #070A57;
     text-decoration: underline;
     margin-left: 30px;
 }
@@ -110,7 +113,7 @@ button.nav-button{
 
 .process-block img {
     background: #FBF5E5;
-    border: 2px dotted #FFBA00;
+    border: 2px dotted  #070A57;
     padding: 15px 20px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -141,10 +144,10 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     line-height: 35px;
-    color: #64707D;}
+    color: blue;}
 
 .project-discussion button {
-    background: #FFBA00;
+    background: #070A57;
     border: none;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
@@ -232,14 +235,14 @@ button.nav-button{
 	text-decoration:underline;
 }
 .service-card a:hover{
-	color:#FFBA00;
+	color: #070A57;
 	transition:all 0.5s ease;
 }
 .service-control-prev, .service-control-next {
     height: 50px;
     width: 50px;
     outline: black;
-    background-color: #FFBA00;
+    background-color:  #070A57;
     background-size: 100%, 100%;
     border-radius: 3px;
 }
@@ -274,12 +277,12 @@ a.carousel-control-next.testimonial-control {
 	font-family: 'Roboto',sans-serif;
 	font-size: 45px;
 	font-weight: 500;
-	color: #FFBA00;
+	color:  #070A57;
     }
 
 
 .testimonial-control-icon {
-	background: #FFBA00;
+	background:#070A57;
 	color: #070A57;
 	height: 32px;
     width: 32px;
@@ -303,7 +306,7 @@ a.carousel-control-next.testimonial-control {
     position: absolute;
     top: 70%;
     left: -10%;
-    background: orange;
+    background: #070A57;
     padding: 20px;
 }
 
@@ -329,7 +332,7 @@ a.carousel-control-next.testimonial-control {
 }
 
 .portfolio-buttons button:hover {
-    color: #FFBA00;
+    color: #070A57;
 }
 
 .portfolio-buttons {
@@ -397,13 +400,13 @@ section.footer.section-padding {
 }
 
 .footer-widget-4 ul li a:hover {
-    color: #FFBA00;
+    color: #070A57;
     transition: all 0.5s ease-in-out;
 }
 .copyright-text p {font-family: 'Roboto',sans-serif;font-size: 18px;font-weight: 400;color: #64707D;line-height: 40px;}
 .messenger i {
     color: #fff;
-    background: #FFBA00;
+    background: #070A57;
     font-size: 40px;
     padding: 5px 10px;
 }
@@ -423,7 +426,7 @@ section.footer.section-padding {
 
 .office-block {
     padding: 15px;
-    border: 2px dotted #FFBA00;
+    border: 2px dotted #070A57;
     text-align: center;
 }
 
@@ -447,7 +450,7 @@ section.footer.section-padding {
     /* to create space for placing icon*/
     padding: 20px 10px 20px 32px;
     border-color: transparent;
-    /* background-color: #FFDE11; */
+    /* background-color: #070A57; */
     border-radius: 4px;
     border: 1px solid #DDDDDD;
   }
@@ -456,7 +459,7 @@ section.footer.section-padding {
     margin-top: 5px;
     margin-bottom: 30px;
     padding: 15px 36px;
-    background-color: #FFBA00;
+    background-color: #070A57;
     border: 0px;
     color: #070A57;
     width: 100%;
@@ -561,7 +564,7 @@ section.header.contact-header {
 .blog-category p {
 	font-family: 'Roboto',sans-serif;
 	font-size: 14px;
-	color: #FFBA00;
+	color: #070A57;
 	line-height: 35px;
 	}
 
@@ -569,7 +572,7 @@ section.header.contact-header {
 	font-family: 'Roboto',sans-serif;
 	font-size: 26px;
 	font-weight: 500;
-	color: #FFBA00;
+	color:#070A57;
 	line-height: 35px;
 	}
 
@@ -613,18 +616,18 @@ section.header.contact-header {
 	color:#070A57 !important;
 }
 .pagination ul li.next{
-	background:#FFBA00;
+	background:#070A57;
 }
 p.sub-heading {font-family: 'Roboto',sans-serif;font-size: 20px;line-height: 35px;color: #070A57;padding-top: 20px;}
 
 form#newsletter-form input#client-mail {
     max-width: 500px;
-    border: 1px solid #FFBA00;
+    border: 1px solid #070A57;
     border-radius: 3px;
 }
 
 form#newsletter-form button,.team-counter button {
-    background: #FFBA00;
+    background:#070A57;
     border: none;
     padding: 5px 12px;
     font-family: 'Roboto',sans-serif;
@@ -642,7 +645,7 @@ form#newsletter-form button,.team-counter button {
 
 .portfolio-overlay {
     position: absolute;
-    background: #FFBA00;
+    background:#070A57;
     height: 90%;
     width: 90%;
     top: 10px;
@@ -665,7 +668,7 @@ form#newsletter-form button,.team-counter button {
 
 
 section.portfolio-call-to-action {
-    background: #FFEEBF;
+    background: whitesmoke;
     text-align: center;
 }
 
@@ -687,7 +690,7 @@ button.project-button-1,button.project-button-2 {
 	margin-right:15px;
 }
 button.project-button-1{
-	background:#FFBA00;
+	background:#070A57;
 }
 button.project-button-2{
 	background:#fff;
@@ -725,7 +728,7 @@ button.project-button-2{
 }
 
 .team-card ul li a:hover {
-    color: #FFBA00;
+    color:#070A57;
     transition: all 0.5s;
 }
 
@@ -734,7 +737,7 @@ span.counter {font-family: 'Roboto',sans-serif;font-size: 45px;color: #070A57;}
 span.counter-plus {
     font-family: 'Roboto',sans-serif;
     font-size: 45px;
-    color: #FFBA00;
+    color:#070A57;
 }
 
 /* Project Page   */

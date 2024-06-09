@@ -1,46 +1,40 @@
 import React from 'react';
-// Uncomment these imports when assets are available
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'font-awesome/css/font-awesome.min.css';
-// import logo from './asset/image/Logo.png';
-// import clientImage1 from './asset/image/client.png';
-// import clientImage2 from './asset/image/client 2.png';
-// import bannerImage from './asset/image/Group 1387.png';
-// import portfolioImage from './asset/image/Portfolio 1.svg';
-// import comaImage from './asset/image/coma.svg';
 
-const Project = () => {
+const Projects = () => {
   return (
     <>
-      {/* Header Section */}
+      {/* Header Start */}
       <section className="header contact-header">
+        {/* Header Navigation Start */}
         <div className="container header-nav">
           <div className="row">
             <div className="col-md-12">
               <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
                 <div className="container">
                   <a href="#" className="navbar-brand">
-                    {/* <img src={logo} alt="Leadsbee Logo" /> */}
+                    <img src="./asset/image/Logo.png" alt="PinaByteLogo" />
                   </a>
                   <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
-                    <span className="navbar-toggler-icon">
-                      <i className="fa fa-bars"></i>
-                    </span>
+                    <span className="navbar-toggler-icon"><i className="fa fa-bars"></i></span>
                   </button>
                   <div className="collapse navbar-collapse" id="beeToggler">
-                    <ul className="navbar-nav ml-auto">
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="./project.html">Project</a></li>
-                      <li><a href="./service.html">Service</a></li>
-                      <li><a href="./team.html">Team</a></li>
-                      <li><a href="./blog.html">Blog</a></li>
+                    <ul className="navbar-nav ml-auto ">
+                      <li><a href="./Home.jsx">Home</a></li>
+                      &nbsp;
+                      <li><a href="./Project.jsx">Project</a></li>
+                      &nbsp;
+                      <li><a href="./Service.jsx">Service</a></li>
+                      &nbsp;
+                      <li><a href="./Team.jsx">Team</a></li>
+                      &nbsp;
+                      <li><a href="./blog.jsx">Blog</a></li>
+                      &nbsp;
                       <li>
-                        <a href="./contact-us.html">
-                          <button className="nav-button">
-                            Contact Us <i className="fas fa-angle-right"></i>
-                          </button>
+                        <a href="./ContactUs.jsx">
+                          <button className="nav-button">Contact Us <i className="fas fa-angle-right"></i> </button>
                         </a>
                       </li>
+                      &nbsp;
                     </ul>
                   </div>
                 </div>
@@ -48,30 +42,37 @@ const Project = () => {
             </div>
           </div>
         </div>
+        {/* Header Navigation End */}
 
-        <div className="container header-content">
+        {/* Header Banner Start */}
+        <div className="container header-content ">
           <div className="row h-100">
             <div className="col-md-6 centralize">
-              <div className="left-content">
-                <h2>Our <span className="highlight">Project</span></h2>
-                <p>Home / Project</p>
+              <div className="left-content ">
+                <h2>Our <span className="highlight">Project</span>
+                </h2>
+                <p>
+                  Home / Project
+                </p>
               </div>
             </div>
             <div className="col-md-6 centralize">
               <div className="right-content">
-                {/* <img src={bannerImage} alt="" /> */}
+                <img src="./asset/image/Group 1387.png" alt="" />
               </div>
             </div>
           </div>
         </div>
+        {/* Header Banner End */}
       </section>
+      {/* Header End */}
 
-      {/* Portfolio Section */}
+      {/* Portfolio Start */}
       <section className="portfolio section-padding">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="text-center portfolio-heading">My Company <span className="highlight">Work</span></h2>
+              <h2 className="text-center portfolio-heading">My Company <span className="highlight">Work</span> </h2>
             </div>
           </div>
         </div>
@@ -88,31 +89,138 @@ const Project = () => {
           </div>
         </div>
         <div className="container myMixCont text-center" data-ref="mixitup-container">
-          <div className="row d-flex justify-content-center">
-            {[...Array(3)].map((_, colIdx) => (
-              <div key={colIdx} className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                {[...Array(3)].map((_, rowIdx) => (
-                  <div key={rowIdx} className={`portfolio-block ${['design', 'development', 'case'][rowIdx % 3]}`} data-ref="mixitup-target">
-                    {/* <img src={portfolioImage} className="img-fluid" alt="Portfolio" /> */}
-                    <div className="portfolio-overlay">
-                      <a href="#"><h3>Project Title</h3></a>
-                      <a href="#"><p>Category</p></a>
-                    </div>
-                  </div>
-                ))}
+          <div className="row d-flex justify-content-center ">
+            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+
+              <div className="portfolio-block design" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
               </div>
-            ))}
+
+              <div className="portfolio-block development" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="portfolio-block development" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+              <div className="portfolio-block design" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="portfolio-block case" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="portfolio-block case" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+              <div className="portfolio-block case" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="portfolio-block development" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="portfolio-block case" data-ref="mixitup-target">
+                <img src="./asset/image/Portfolio 1.svg" className="img-fluid" />
+                <div className="portfolio-overlay">
+                  <a href="#">
+                    <h3>Project Title</h3>
+                  </a>
+                  <a href="#">
+                    <p> Category </p>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
           </div>
+
         </div>
       </section>
+      {/* Portfolio End */}
 
-      {/* Portfolio Call to Action */}
+      {/* Portfolio Call to Action Start */}
       <section className="section-padding portfolio-call-to-action">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h2>
-                Any Consultation For Made Creative <br />
+              <h2>Any Consultation For Made Creative <br />
                 <span className="highlight">Web Design & Development</span>
               </h2>
               <button className="project-button-1">Let's Talk <i className="fas fa-angle-right"></i></button>
@@ -121,64 +229,99 @@ const Project = () => {
           </div>
         </div>
       </section>
+      {/* Portfolio Call to Action End */}
 
-      {/* Client's Testimonial */}
+      {/* Client's Testimonial Start */}
       <section className="testimonial section-padding">
         <div className="container">
           <div className="card col-md-12 mt-2">
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="100000">
               <div className="w-100 carousel-inner mb-5" role="listbox">
-                {[/*clientImage1, clientImage2*/].map((clientImage, idx) => (
-                  <div key={idx} className={`carousel-item ${idx === 0 ? 'active' : ''}`}>
-                    <div className="row">
-                      <div className="col-md-7 d-flex flex-column justify-content-center">
-                        <div className="testimonial-description">
-                          <h3> Clients’ Love To Work With Us </h3>
-                          <div className="client-meta-data">
-                            <h5>John Doe</h5>
-                            <p>UI/UX Designer</p>
-                            <p className="client-says">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris, et congue magna pretium n.
-                              Maecenas ac luctus odio, In ut fermentum lorem. In nulla velit, mauris, et congue magna pretium magna pretium n.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-md-5 centralize justify-content-center">
-                        <div className="client-picture">
-                          {/* <img src={clientImage} alt="" className="img-fluid" /> */}
-                          <img src={comaImage} alt="" className="coma" />
+                <div className="carousel-item active">
+
+                  <div className="row">
+                    <div className="col-md-7 d-flex flex-column justify-content-center">
+                      <div className="testimonial-description">
+                        <h3> Clients’ Love To Work With Us </h3>
+                        <div className="client-meta-data">
+                          <h5>John Doe</h5>
+                          <p> UI/UX Designer</p>
+                          <p className="client-says">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                            mauris, et congue magna pretium n. Maecenas ac luctus odio,
+                            In ut fermentum lorem. In nulla velit, mauris, et congue magna pretium magna
+                            pretium n.
+                          </p>
                         </div>
                       </div>
                     </div>
+                    <div className="col-md-5 centralize justify-content-center">
+                      <div className="client-picture">
+                        <img src="./asset/image/client.png" alt="" className="img-fluid" />
+                        <img src="./asset/image/coma.svg" alt="" className="coma" />
+                      </div>
+                    </div>
                   </div>
-                ))}
+                </div>
+                <div className="carousel-item">
+                  <div className="row">
+                    <div className="col-md-7 d-flex flex-column justify-content-center">
+                      <div className="testimonial-description">
+                        <h3> Clients’ Love To Work With Us </h3>
+                        <div className="client-meta-data">
+                          <h5>John Doe</h5>
+                          <p> UI/UX Designer</p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                          mauris, et congue magna pretium n. Maecenas ac luctus odio,
+                          In ut fermentum lorem. In nulla velit, mauris, et congue magna pretium magna
+                          pretium n.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-5 centralize justify-content-center">
+                      <div className="client-picture">
+                        <img src="./asset/image/client 2.png" alt="" />
+                        <img src="./asset/image/coma.svg" alt="" className="coma" />
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
               </div>
-              <a className="carousel-control-prev testimonial-control" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon testimonial-control-icon" aria-hidden="true">
-                  <i className="fas fa-chevron-left"></i>
-                </span>
+
+              <a className="carousel-control-prev testimonial-control" href="#carouselExampleControls" role="button"
+                data-slide="prev">
+                <span className="carousel-control-prev-icon testimonial-control-icon" aria-hidden="true"><i
+                  className="fas fa-chevron-left"></i></span>
                 <span className="sr-only">Previous</span>
               </a>
-              <a className="carousel-control-next testimonial-control" href="#carouselExampleControls" role="button" data-slide="next">
-                <span className="carousel-control-next-icon testimonial-control-icon" aria-hidden="true">
-                  <i className="fas fa-chevron-right"></i>
-                </span>
+              <a className="carousel-control-next testimonial-control" href="#carouselExampleControls" role="button"
+                data-slide="next">
+                <span className="carousel-control-next-icon testimonial-control-icon" aria-hidden="true"><i
+                  className="fas fa-chevron-right"></i></span>
                 <span className="sr-only">Next</span>
               </a>
             </div>
+
           </div>
         </div>
-      </section>
 
-      {/* Footer Section */}
+
+    
+      </section>
+      {/* Client's Testimonial End */}
+
+      {/* Footer Start */}
       <section className="footer section-padding">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
               <div className="footer-widget-1">
-                {/* <img src={logo} alt="" /> */}
-                <p>Lorem ipsum dolor sit, consectet dignissim. consectet adipiscing Cras dignissim.</p>
+                <img src="./asset/image/Logo.png" alt="" />
+                <p>
+                  Lorem ipsum dolor sit, consectet dignissim.consectet adipiscing Cras dignissim.
+                </p>
               </div>
             </div>
             <div className="col-md-3">
@@ -194,31 +337,50 @@ const Project = () => {
             </div>
             <div className="col-md-3">
               <div className="footer-widget-3">
-                <h3>Services</h3>
+                <h3>Company</h3>
                 <ul>
-                  <li><a href="#">Web Design</a></li>
-                  <li><a href="#">Development</a></li>
-                  <li><a href="#">Case Study</a></li>
-                  <li><a href="#">Graphics</a></li>
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Article</a></li>
+                  <li><a href="#">Testimonial</a></li>
+                  <li><a href="#">FAQ's</a></li>
                 </ul>
               </div>
             </div>
             <div className="col-md-3">
               <div className="footer-widget-4">
-                <h3>About</h3>
+                <h3>contact Us</h3>
+                <p>
+                  info@PinaByte.com <br /> 07/409 Jiangxi China
+                </p>
                 <ul>
-                  <li><a href="#">Our Story</a></li>
-                  <li><a href="#">Our Team</a></li>
-                  <li><a href="#">Career</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i className="fab fa-dribbble"></i></a></li>
                 </ul>
+              </div>
+            </div>
+          </div>
+          <div className="row" style={{ borderTop: "1px solid #ddd", paddingTop: "10px" }}>
+            <div className="col-md-10">
+              <div className="copyright-text">
+                <p>
+                  Copyright © 2020 PinaByte Design Company, All Rights Reserved.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-2">
+              <div className="messenger">
+                <i className="fab fa-facebook-messenger"></i>
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* Footer End */}
     </>
   );
 };
 
-export default Project;
+export default Projects;
+
