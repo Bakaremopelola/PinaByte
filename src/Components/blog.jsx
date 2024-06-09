@@ -1,9 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import './asset/css/style.css';
-// import './asset/css/responsive.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'font-awesome/css/font-awesome.min.css';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   return (

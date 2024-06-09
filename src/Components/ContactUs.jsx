@@ -1,5 +1,5 @@
 import React from 'react';
-// import './ContactUs.css';
+import { Link } from 'react-router-dom';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -11,7 +11,7 @@ const ContactUs = () => {
                     <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
                         <div className="container">
                             <a href="#" className="navbar-brand">
-                                <img src="./asset/image/Logo.png" alt="LeadsbeeLogo" />
+                                <img src="./asset/image/Logo.png" alt="Pinabyte" />
                             </a>
                             <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
                                 <span className="navbar-toggler-icon"><i className="fa fa-bars"></i></span>
@@ -65,7 +65,7 @@ const ContactUs = () => {
                                 <h3>Tokyo Japan</h3>
                                 <p>
                                     Phone: (048) 333-9999<br />
-                                    Email: Support@leadsbee.com<br />
+                                    Email: Support@Pinabyte.com<br />
                                     73 Gartner Street Chaska, MN 553
                                 </p>
                             </div>
@@ -75,7 +75,7 @@ const ContactUs = () => {
                                 <h3>Jiangxi China</h3>
                                 <p>
                                     Phone: (048) 333-9999<br />
-                                    Email: Support@leadsbee.com<br />
+                                    Email: Support@Pinabyte.com<br />
                                     73 Gartner Street Chaska, MN 553
                                 </p>
                             </div>
@@ -206,8 +206,9 @@ const ContactUs = () => {
                         <div className="col-md-3">
                             <div className="footer-widget-4">
                                 <h3>Contact Us</h3>
-                                <p>info@leadsbee.com<br />07/409 Jiangxi China</p>
+                                <p>info@Pinabyte.com<br />07/409 Jiangxi China</p>
                                 <ul>
+                                    
                                     <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i className="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i className="fab fa-instagram"></i></a></li>
@@ -219,7 +220,7 @@ const ContactUs = () => {
                     <div className="row" style={{ borderTop: '1px solid #ddd', paddingTop: '10px' }}>
                         <div className="col-md-10">
                             <div className="copyright-text">
-                                <p>Copyright © 2020 Leadsbee Design Company, All Rights Reserved.</p>
+                                <p>Copyright © 2020 <Pinabyte></Pinabyte> Design Company, All Rights Reserved.</p>
                             </div>
                         </div>
                         <div className="col-md-2">

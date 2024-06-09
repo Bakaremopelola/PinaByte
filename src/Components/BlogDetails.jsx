@@ -4,27 +4,27 @@ const BlogDetail = () => {
   return (
     <div>
         {/* Header Start */}
-        <section class="header">
+        <section className="header">
           {/* Header Navigation Start */}
-          <div class="container header-nav">
-            <div class="row">
-              <div class="col-md-12 col-sm-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
-                  <div class="container">
-                    <a href="#" class="navbar-brand">
-                      <img src="./asset/image/Logo.png" alt="LeadsbeeLogo" />
+          <div className="container header-nav">
+            <div className="row">
+              <div className="col-md-12 col-sm-12">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
+                  <div className="container">
+                    <a href="#" className="navbar-brand">
+                      {/* <img src="./asset/image/Logo.png" alt="LeadsbeeLogo" /> */}
                     </a>
                     <button
-                      class="navbar-toggler"
+                      className="navbar-toggler"
                       data-toggle="collapse"
                       data-target="#beeToggler"
                     >
-                      <span class="navbar-toggler-icon">
-                        <i class="fa fa-bars"></i>
+                      <span className="navbar-toggler-icon">
+                        <i className="fa fa-bars"></i>
                       </span>
                     </button>
-                    <div class="collapse navbar-collapse" id="beeToggler">
-                      <ul class="navbar-nav ml-auto ">
+                    <div className="collapse navbar-collapse" id="beeToggler">
+                      <ul className="navbar-nav ml-auto ">
                         <li>
                           <a href="./index.html">Home</a>
                         </li>
@@ -47,8 +47,8 @@ const BlogDetail = () => {
                         &nbsp;
                         <li>
                           <a href="contact-us.html">
-                            <button class="nav-button">
-                              Contact Us <i class="fas fa-angle-right"></i>{" "}
+                            <button className="nav-button">
+                              Contact Us <i className="fas fa-angle-right"></i>{" "}
                             </button>
                           </a>
                         </li>
@@ -62,19 +62,19 @@ const BlogDetail = () => {
           {/* Header Navigation End */}
 
           {/* Header Banner Start */}
-          <div class="container header-content ">
-            <div class="row ">
-              <div class="col-md-6 centralize">
-                <div class="left-content ">
+          <div className="container header-content ">
+            <div className="row ">
+              <div className="col-md-6 centralize">
+                <div className="left-content ">
                   <h2>
-                    Blog <span class="highlight">Details</span>
+                    Blog <span className="highlight">Details</span>
                   </h2>
                   Home / Blog Details
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="right-content">
-                  <img src="./asset/image/Group 1387.png" alt="" class="py-5" />
+              <div className="col-md-6">
+                <div className="right-content">
+                  <img src="./asset/image/Group 1387.png" alt="" className="py-5" />
                 </div>
               </div>
             </div>
@@ -83,19 +83,19 @@ const BlogDetail = () => {
         {/* Header End */}
 
         {/* Blog details start */}
-        <section class="best-solutions">
-          <div class="container" style={{ padding: "50px 0px 50px 0px" }}>
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
+        <section className="best-solutions">
+          <div className="container" style={{ padding: "50px 0px 50px 0px" }}>
+            <div className="row">
+              <div className="col-md-8 col-xs-12">
                 <img
                   src="./asset/image/blog-details.svg"
-                  class="sample-image-service img-fluid"
+                  className="sample-image-service img-fluid"
                 />
-                <div class="blog-post">
-                  <div class="blog-category">
+                <div className="blog-post">
+                  <div className="blog-category">
                     <p>UI/UX DESIGNER</p>
                   </div>
-                  <h2 class="blog-title">
+                  <h2 className="blog-title">
                     {" "}
                     Business contents insuranc is a type of business.
                   </h2>
@@ -112,7 +112,7 @@ const BlogDetail = () => {
                     .
                   </p>
 
-                  <p style={{ background: "#FFEEBF" }} class="lead">
+                  <p style={{ background: "#FFEEBF" }} className="lead">
                     This is a modified jumbotron that occupies the entire
                     horizontal space of its parent. Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Voluptatum voluptatibus hic od
@@ -132,14 +132,14 @@ const BlogDetail = () => {
                   <hr />
 
                   <div className="row" class="centralize">
-                    <div class="col-md-3">
+                    <div className="col-md-3">
                       <img
                         src="./asset/image/blog-details1.svg"
-                        class="img-fluid"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>
-                    <div class="col-md-9" className="justify-content-center">
+                    <div className="col-md-9" class="justify-content-center">
                       <h3>Donald Barnhart</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -148,16 +148,16 @@ const BlogDetail = () => {
                     </div>
                   </div>
 
-                  <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-3">
+                  <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-3">
                       <img
                         src="./asset/image/blogdetails2.svg"
-                        class="img-fluid"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>
-                    <div class="col-md-7" className="justify-content-center">
+                    <div id="col-md-7" className="justify-content-center">
                       <h3>Micheal Parez</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -166,15 +166,15 @@ const BlogDetail = () => {
                     </div>
                   </div>
 
-                  <div class="row">
-                    <div class="col-md-3">
+                  <div className="row">
+                    <div className="col-md-3">
                       <img
                         src="./asset/image/blog-details3.svg"
-                        class="img-fluid"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>
-                    <div class="col-md-9" className="justify-content-center">
+                    <div id="col-md-9" className="justify-content-center">
                       <h3>Donald Barnhart</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -184,40 +184,40 @@ const BlogDetail = () => {
                   </div>
 
                   <h2>Give a Reply</h2>
-                  <div class="row" style={{ marginTop: "20px" }}>
-                    <div class="col-md-6">
-                      <div class="mb-3">
+                  <div className="row" style={{ marginTop: "20px" }}>
+                    <div className="col-md-6">
+                      <div className="mb-3">
                         <input
                           style={{ background: "#FFEEBF" }}
                           type="name"
-                          class="form-control"
+                          className="form-control"
                           id="exampleFormControlInput1"
                           placeholder="Your Name"
                         />
                       </div>
-                      <div class="mb-3">
+                      <div className="mb-3">
                         <input
                           style={{ background: "#FFEEBF" }}
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="exampleFormControlInput1"
                           placeholder="Your Email"
                         />
                       </div>
                     </div>
 
-                    <div class="col-md-6">
-                      <div class="mb-3">
+                    <div className="col-md-6">
+                      <div className="mb-3">
                         <textarea
                           style={{ background: "#FFEEBF" }}
-                          class="form-control py-5"
+                          className="form-control py-5"
                           id="exampleFormControlTextarea1"
                           rows="3"
                           placeholder="Your Message"
                         ></textarea>
                         <button
                           type="button"
-                          class="btn btn-warning btn-lg btn-block get-quote-button py-3"
+                          className="btn btn-warning btn-lg btn-block get-quote-button py-3"
                         >
                           Submit
                         </button>
@@ -228,19 +228,19 @@ const BlogDetail = () => {
               </div>
             </div>
 
-            <div class="col-md-4 col-xs-12">
+            <div className="col-md-4 col-xs-12">
               <h2>Most Popular</h2>
               <hr />
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-3">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-3">
                     <img
                       src="./asset/image/Images (7).svg"
-                      class="img-thumbnail"
+                      className="img-thumbnail"
                       alt=""
                     />
                   </div>
-                  <div class="col-md-9">
+                  <div className="col-md-9">
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Voluptatem, ratione
@@ -248,15 +248,15 @@ const BlogDetail = () => {
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-3">
+                <div className="row">
+                  <div className="col-md-3">
                     <img
                       src="./asset/image/website-template-design-laptop-screen.png"
-                      class="img-thumbnail"
+                      className="img-thumbnail"
                       alt=""
                     />
                   </div>
-                  <div class="col-md-9">
+                  <div className="col-md-9">
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Voluptatem, ratione
@@ -264,15 +264,15 @@ const BlogDetail = () => {
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-3">
+                <div className="row">
+                  <div className="col-md-3">
                     <img
                       src="./asset/image/service_details_sample.png"
-                      class="img-thumbnail"
+                      className="img-thumbnail"
                       alt=""
                     />
                   </div>
-                  <div class="col-md-9">
+                  <div className="col-md-9">
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Voluptatem, ratione
@@ -280,67 +280,67 @@ const BlogDetail = () => {
                   </div>
                 </div>
               </div>
-              <div class="container" style={{ paddingTop: "30px" }}>
+              <div className="container" style={{ paddingTop: "30px" }}>
                 <h2>Catagories</h2>
                 <hr />
-                <div class="row">
-                  <div class="col-md-6">
+                <div className="row">
+                  <div className="col-md-6">
                     <p>UI/UX DESIGN</p>
                   </div>
-                  <div class="col-md-6">07 ARTICLES</div>
+                  <div className="col-md-6">07 ARTICLES</div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">ECO SUPPORT</div>
-                  <div class="col-md-6">07 ARTICLES</div>
+                <div className="row">
+                  <div className="col-md-6">ECO SUPPORT</div>
+                  <div className="col-md-6">07 ARTICLES</div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">WEB DESIGNER</div>
-                  <div class="col-md-6">07 ARTICLES</div>
+                <div className="row">
+                  <div className="col-md-6">WEB DESIGNER</div>
+                  <div className="col-md-6">07 ARTICLES</div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">ECO SUPPORT</div>
-                  <div class="col-md-6">07 ARTICLES</div>
+                <div className="row">
+                  <div className="col-md-6">ECO SUPPORT</div>
+                  <div className="col-md-6">07 ARTICLES</div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">UI/UX DESIGN</div>
-                  <div class="col-md-6">08 ARTICLES</div>
+                <div className="row">
+                  <div className="col-md-6">UI/UX DESIGN</div>
+                  <div className="col-md-6">08 ARTICLES</div>
                 </div>
               </div>
-              <div class="container">
+              <div className="container">
                 <h2>Popular Tags</h2>
                 <hr />
-                <div class="row" style={{ marginTop: "20px" }}>
-                  <div class="col-md-6">
-                    <button class="btn btn-outline-secondary mt-md-4">
+                <div className="row" style={{ marginTop: "20px" }}>
+                  <div className="col-md-6">
+                    <button className="btn btn-outline-secondary mt-md-4">
                       UI/UX DESIGN
                     </button>
                   </div>
-                  <div class="col-md-6">
-                    <button class="btn btn-outline-secondary">
+                  <div className="col-md-6">
+                    <button className="btn btn-outline-secondary">
                       WEB DEVELOPMENT
                     </button>
                   </div>
                 </div>
-                <div class="row" style={{ marginTop: "20px" }}>
-                  <div class="col-md-7">
+                <div className="row" style={{ marginTop: "20px" }}>
+                  <div className="col-md-7">
                     {" "}
-                    <button class="btn btn-outline-secondary ">
+                    <button className="btn btn-outline-secondary ">
                       CONTENT WRITER{" "}
                     </button>
                   </div>
-                  <div class="col-md-5">
+                  <div className="col-md-5">
                     {" "}
-                    <button class="btn btn-outline-secondary">ECO EXPART</button>
+                    <button className="btn btn-outline-secondary">ECO EXPART</button>
                   </div>
                 </div>
-                <div class="row" style={{ marginTop: "20px" }}>
-                  <div class="col-md-6">
-                    <button class="btn btn-outline-secondary">
+                <div className="row" style={{ marginTop: "20px" }}>
+                  <div className="col-md-6">
+                    <button className="btn btn-outline-secondary">
                       UI/UX DESIGN
                     </button>
                   </div>
-                  <div class="col-md-6">
-                    <button class="btn btn-outline-secondary">
+                  <div className="col-md-6">
+                    <button className="btn btn-outline-secondary">
                       WEB DEVELOPMENT
                     </button>
                   </div>
@@ -352,11 +352,11 @@ const BlogDetail = () => {
         {/* blog-details- finish */}
 
         {/* Footer Start */}
-        <section class="footer section-padding">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="footer-widget-1">
+        <section className="footer section-padding">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3">
+                <div className="footer-widget-1">
                   <img src="./asset/image/Logo.png" alt="" />
                   <p>
                     Lorem ipsum dolor sit, consectet dignissim.consectet
@@ -364,8 +364,8 @@ const BlogDetail = () => {
                   </p>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="footer-widget-2">
+              <div className="col-md-3">
+                <div className="footer-widget-2">
                   <h3>Work</h3>
                   <ul>
                     <li>
@@ -383,8 +383,8 @@ const BlogDetail = () => {
                   </ul>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="footer-widget-3">
+              <div className="col-md-3">
+                <div className="footer-widget-3">
                   <h3>Company</h3>
                   <ul>
                     <li>
@@ -402,31 +402,31 @@ const BlogDetail = () => {
                   </ul>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="footer-widget-4">
+              <div className="col-md-3">
+                <div className="footer-widget-4">
                   <h3>contact Us</h3>
                   <p>
-                    info@leadsbee.com <br /> 07/409 Jiangxi China
+                    info@Pinabyte.com <br /> 07/409 
                   </p>
                   <ul>
                     <li>
                       <a href="#">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fab fa-dribbble"></i>
+                        <i className="fab fa-dribbble"></i>
                       </a>
                     </li>
                   </ul>
@@ -437,22 +437,7 @@ const BlogDetail = () => {
         </section>
         {/* Footer End */}
 
-        {/* Adding Scripts */}
-        <script
-          src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-          crossorigin="anonymous"
-        ></script>
+     
     </div>
   );
 };

@@ -1,18 +1,17 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.min.css';
-import './asset/css/style.css';
-import './asset/css/responsive.css';
-import logo from './asset/image/Logo.png';
-import bannerImage from './asset/image/Group 1387.png';
-import portfolioImage from './asset/image/Portfolio 1.svg';
-import clientImage1 from './asset/image/client.png';
-import clientImage2 from './asset/image/client 2.png';
-import comaImage from './asset/image/coma.svg';
+// Uncomment these imports when assets are available
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
+// import logo from './asset/image/Logo.png';
+// import clientImage1 from './asset/image/client.png';
+// import clientImage2 from './asset/image/client 2.png';
+// import bannerImage from './asset/image/Group 1387.png';
+// import portfolioImage from './asset/image/Portfolio 1.svg';
+// import comaImage from './asset/image/coma.svg';
 
 const Project = () => {
   return (
-    <div>
+    <>
       {/* Header Section */}
       <section className="header contact-header">
         <div className="container header-nav">
@@ -21,7 +20,7 @@ const Project = () => {
               <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
                 <div className="container">
                   <a href="#" className="navbar-brand">
-                    <img src={logo} alt="Leadsbee Logo" />
+                    {/* <img src={logo} alt="Leadsbee Logo" /> */}
                   </a>
                   <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
                     <span className="navbar-toggler-icon">
@@ -30,18 +29,18 @@ const Project = () => {
                   </button>
                   <div className="collapse navbar-collapse" id="beeToggler">
                     <ul className="navbar-nav ml-auto">
-                      <li><a href="./index.html">Home</a></li>&nbsp;
-                      <li><a href="./project.html">Project</a></li>&nbsp;
-                      <li><a href="./service.html">Service</a></li>&nbsp;
-                      <li><a href="./team.html">Team</a></li>&nbsp;
-                      <li><a href="./blog.html">Blog</a></li>&nbsp;
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./project.html">Project</a></li>
+                      <li><a href="./service.html">Service</a></li>
+                      <li><a href="./team.html">Team</a></li>
+                      <li><a href="./blog.html">Blog</a></li>
                       <li>
                         <a href="./contact-us.html">
                           <button className="nav-button">
                             Contact Us <i className="fas fa-angle-right"></i>
                           </button>
                         </a>
-                      </li>&nbsp;
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -60,7 +59,7 @@ const Project = () => {
             </div>
             <div className="col-md-6 centralize">
               <div className="right-content">
-                <img src={bannerImage} alt="" />
+                {/* <img src={bannerImage} alt="" /> */}
               </div>
             </div>
           </div>
@@ -94,7 +93,7 @@ const Project = () => {
               <div key={colIdx} className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                 {[...Array(3)].map((_, rowIdx) => (
                   <div key={rowIdx} className={`portfolio-block ${['design', 'development', 'case'][rowIdx % 3]}`} data-ref="mixitup-target">
-                    <img src={portfolioImage} className="img-fluid" alt="Portfolio" />
+                    {/* <img src={portfolioImage} className="img-fluid" alt="Portfolio" /> */}
                     <div className="portfolio-overlay">
                       <a href="#"><h3>Project Title</h3></a>
                       <a href="#"><p>Category</p></a>
@@ -129,7 +128,7 @@ const Project = () => {
           <div className="card col-md-12 mt-2">
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="100000">
               <div className="w-100 carousel-inner mb-5" role="listbox">
-                {[clientImage1, clientImage2].map((clientImage, idx) => (
+                {[/*clientImage1, clientImage2*/].map((clientImage, idx) => (
                   <div key={idx} className={`carousel-item ${idx === 0 ? 'active' : ''}`}>
                     <div className="row">
                       <div className="col-md-7 d-flex flex-column justify-content-center">
@@ -147,7 +146,7 @@ const Project = () => {
                       </div>
                       <div className="col-md-5 centralize justify-content-center">
                         <div className="client-picture">
-                          <img src={clientImage} alt="" className="img-fluid" />
+                          {/* <img src={clientImage} alt="" className="img-fluid" /> */}
                           <img src={comaImage} alt="" className="coma" />
                         </div>
                       </div>
@@ -178,7 +177,7 @@ const Project = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="footer-widget-1">
-                <img src={logo} alt="" />
+                {/* <img src={logo} alt="" /> */}
                 <p>Lorem ipsum dolor sit, consectet dignissim. consectet adipiscing Cras dignissim.</p>
               </div>
             </div>
@@ -218,7 +217,7 @@ const Project = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

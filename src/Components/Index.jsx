@@ -12,7 +12,7 @@ function Index() {
                             <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
                                 <div className="container">
                                     <a href="#" className="navbar-brand">
-                                        <img src="./asset/image/Logo.png" alt="LeadsbeeLogo" />
+                                        <img src="./asset/image/Logo.png" alt="Pinabyte" />
                                     </a>
                                     <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
                                         <span className="navbar-toggler-icon"><i className="fa fa-bars"></i></span>
@@ -163,12 +163,7 @@ function Index() {
                 </div>
             </section>
             {/* Footer End */}
-            {/* Adding Scripts */}
-            <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <script src="./asset/js/mixitup.min.js"></script>
-            <script src="./asset/js/main.js"></script>
+            
         </>
     );
 }

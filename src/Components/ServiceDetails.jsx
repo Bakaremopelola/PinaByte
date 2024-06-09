@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Logo from './asset/image/Logo.png'; // Adjust the import path as needed
-import HeaderImage from './asset/image/Group 1387.png'; // Adjust the import path as needed
-import ServiceImage from './asset/image/service_details_sample.png'; // Adjust the import path as needed
-import DiscussionIcon from './asset/image/discussion.svg'; // Adjust the import path as needed
+// import Logo from './asset/image/Logo.png'; // Adjust the import path as needed
+// import HeaderImage from './asset/image/Group 1387.png'; // Adjust the import path as needed
+// import ServiceImage from './asset/image/service_details_sample.png'; // Adjust the import path as needed
+// import DiscussionIcon from './asset/image/discussion.svg'; // Adjust the import path as needed
 
 const ServiceDetails = () => {
   return (
@@ -16,7 +16,7 @@ const ServiceDetails = () => {
               <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
                 <div className="container">
                   <a href="#" className="navbar-brand">
-                    <img src={Logo} alt="Leadsbee Logo" />
+                    {/* <img src={Logo} alt="Leadsbee Logo" /> */}
                   </a>
                   <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
                     <span className="navbar-toggler-icon"><i className="fa fa-bars"></i></span>
@@ -51,7 +51,7 @@ const ServiceDetails = () => {
             </div>
             <div className="col-md-6 centralize">
               <div className="right-content">
-                <img src={HeaderImage} alt="" />
+                {/* <img src={HeaderImage} alt="" /> */}
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ const ServiceDetails = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-8">
-              <img src={ServiceImage} className="img-fluid" alt="Service details sample" />
+              {/* <img src={ServiceImage} className="img-fluid" alt="Service details sample" /> */}
               <h4 className="great-websites text-center py-5">Great websites add great value to your business</h4>
               <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random text...
@@ -120,7 +120,7 @@ const ServiceDetails = () => {
               <div className="process-block">
                 <div className="card">
                   <div className="card-body">
-                    <img src={DiscussionIcon} alt="Project Discussion" />
+                    {/* <img src={DiscussionIcon} alt="Project Discussion" /> */}
                     <h3>Project Discussion</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim.</p>
                   </div>
@@ -131,7 +131,7 @@ const ServiceDetails = () => {
               <div className="process-block">
                 <div className="card">
                   <div className="card-body">
-                    <img src={DiscussionIcon} alt="Design & Development" />
+                    {/* <img src={DiscussionIcon} alt="Design & Development" /> */}
                     <h3>Design & Development</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim.</p>
                   </div>
@@ -142,7 +142,7 @@ const ServiceDetails = () => {
               <div className="process-block">
                 <div className="card">
                   <div className="card-body">
-                    <img src={DiscussionIcon} alt="Final Delivery" />
+                    {/* <img src={DiscussionIcon} alt="Final Delivery" /> */}
                     <h3>Final Delivery</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim.</p>
                   </div>
@@ -179,7 +179,7 @@ const ServiceDetails = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="footer-widget-1">
-                <img src={Logo} alt="" />
+                {/* <img src={Logo} alt="" /> */}
                 <p>Lorem ipsum dolor sit, consectet dignissim.consectet adipiscing Cras dignissim.</p>
               </div>
             </div>
@@ -187,22 +187,24 @@ const ServiceDetails = () => {
               <div className="footer-widget-2">
                 <h3>Work</h3>
                 <ul>
-                  <li><a href="#">Case Studies</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Dribble</a></li>
-                  <li><a href="#">Instagram</a></li>
-                </ul>
+                  <li><Link to="/case-studies">Case Studies</Link></li>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                   <li><Link to="/dribble">Dribble</Link></li>
+                    <li><Link to="/instagram">Instagram</Link></li>
+                  </ul>
+
               </div>
             </div>
             <div className="col-md-3">
               <div className="footer-widget-3">
                 <h3>Company</h3>
                 <ul>
-                  <li><a href="#">Company</a></li>
-                  <li><a href="#">Article</a></li>
-                  <li><a href="#">Testimonial</a></li>
-                  <li><a href="#">FAQ's</a></li>
+                <li><Link to="#">Company</Link></li>
+                <li><Link to="#">Article</Link></li>
+                <li><Link to="#">Testimonials</Link></li>
+                <li><Link to="#">FAQ's</Link></li>
                 </ul>
+
               </div>
             </div>
             <div className="col-md-3">
@@ -210,10 +212,26 @@ const ServiceDetails = () => {
                 <h3>Contact Us</h3>
                 <p>info@leadsbee.com <br /> 07/409 Jiangxi China</p>
                 <ul>
-                  <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i className="fab fa-dribbble"></i></a></li>
+                  <li>
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-facebook-f"></i>
+                  </a>
+                  </li>
+                 <li>
+                 <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                 <i className="fab fa-twitter"></i>
+                 </a>
+                 </li>
+                 <li>
+                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i>
+                 </a>
+                 </li>
+                 <li>
+                  <a href="https://www.dribbble.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-dribbble"></i>
+                 </a>
+                </li>
                 </ul>
               </div>
             </div>
@@ -221,7 +239,7 @@ const ServiceDetails = () => {
           <div className="row" style={{ borderTop: '1px solid #ddd', paddingTop: '10px' }}>
             <div className="col-md-10">
               <div className="copyright-text">
-                <p>Copyright © 2020 Leadsbee Design Company, All Rights Reserved.</p>
+                <p>Copyright © 2020 Pinabyte Design Company, All Rights Reserved.</p>
               </div>
             </div>
             <div className="col-md-2">
