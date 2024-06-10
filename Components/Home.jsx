@@ -21,7 +21,7 @@ const Home = () => {
                   et fringilla id, volutpat id magna.
                 </p>
                 <div className="call-to-action">
-                  <button>Work With Us<faAngleRight/> </button>
+                  <button>Work With Us<FaAngleRight/> </button>
                   <a href="#">View Our Portfolio <i className="fas fa-angle-right"></i></a>
                 </div>
               </div>
