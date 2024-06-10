@@ -5,45 +5,7 @@ const Projects = () => {
     <>
       {/* Header Start */}
       <section className="header contact-header">
-        {/* Header Navigation Start */}
-        <div className="container header-nav">
-          <div className="row">
-            <div className="col-md-12">
-              <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
-                <div className="container">
-                  <a href="#" className="navbar-brand">
-                    <img src="./asset/image/Logo.png" alt="PinaByteLogo" />
-                  </a>
-                  <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
-                    <span className="navbar-toggler-icon"><i className="fa fa-bars"></i></span>
-                  </button>
-                  <div className="collapse navbar-collapse" id="beeToggler">
-                    <ul className="navbar-nav ml-auto ">
-                      <li><a href="./Home.jsx">Home</a></li>
-                      &nbsp;
-                      <li><a href="./Project.jsx">Project</a></li>
-                      &nbsp;
-                      <li><a href="./Service.jsx">Service</a></li>
-                      &nbsp;
-                      <li><a href="./Team.jsx">Team</a></li>
-                      &nbsp;
-                      <li><a href="./blog.jsx">Blog</a></li>
-                      &nbsp;
-                      <li>
-                        <a href="./ContactUs.jsx">
-                          <button className="nav-button">Contact Us <i className="fas fa-angle-right"></i> </button>
-                        </a>
-                      </li>
-                      &nbsp;
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-        {/* Header Navigation End */}
-
+       
         {/* Header Banner Start */}
         <div className="container header-content ">
           <div className="row h-100">
@@ -312,72 +274,6 @@ const Projects = () => {
       </section>
       {/* Client's Testimonial End */}
 
-      {/* Footer Start */}
-      <section className="footer section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3">
-              <div className="footer-widget-1">
-                <img src="./asset/image/Logo.png" alt="" />
-                <p>
-                  Lorem ipsum dolor sit, consectet dignissim.consectet adipiscing Cras dignissim.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div className="footer-widget-2">
-                <h3>Work</h3>
-                <ul>
-                  <li><a href="#">Case Studies</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Dribble</a></li>
-                  <li><a href="#">Instagram</a></li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div className="footer-widget-3">
-                <h3>Company</h3>
-                <ul>
-                  <li><a href="#">Company</a></li>
-                  <li><a href="#">Article</a></li>
-                  <li><a href="#">Testimonial</a></li>
-                  <li><a href="#">FAQ's</a></li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div className="footer-widget-4">
-                <h3>contact Us</h3>
-                <p>
-                  info@PinaByte.com <br /> 07/409 Jiangxi China
-                </p>
-                <ul>
-                  <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i className="fab fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="row" style={{ borderTop: "1px solid #ddd", paddingTop: "10px" }}>
-            <div className="col-md-10">
-              <div className="copyright-text">
-                <p>
-                  Copyright © 2020 PinaByte Design Company, All Rights Reserved.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-2">
-              <div className="messenger">
-                <i className="fab fa-facebook-messenger"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Footer End */}
     </>
   );
 };

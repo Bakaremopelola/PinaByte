@@ -6,18 +6,28 @@ import Team from './Components/Team';
 import Blog from './Components/blog'
 import ContactUs from './Components/ContactUs';
 import "./App.css";
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import { Routes, Route } from "react-router-dom";
 
 
 
 const App = () => {
   return (
     <div>
-      <Home/>
-      <Projects/>
-      <Services/>
-      <Team/>
-      <Blog/>
-      <ContactUs/>
+      <Navbar/>
+      <Routes>
+
+      
+      <Route path="/" element={<Home/>} />
+      <Route path="/Project" element={<Projects/>} />
+      <Route path="/Service" element={<Services/>} />
+      <Route path="/Team" element={<Team/>} />
+      <Route path="/blog" element={<Blog/>} />
+      <Route path="/ContactUs" element={<ContactUs/>} />
+    
+      </Routes>
+      <Footer/>
 
     </div>
   )

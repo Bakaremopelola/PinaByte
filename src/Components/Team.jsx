@@ -5,60 +5,7 @@ const Team = () => {
     <>
       {/* Header Start */}
       <section className="header contact-header">
-        {/* Header Navigation Start */}
-        <div className="container header-nav">
-          <div className="row">
-            <div className="col-md-12">
-              <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu fixed-top">
-                <div className="container">
-                  <a href="#" className="navbar-brand">
-                    <img src="./asset/image/Logo.png" alt="PinaByteLogo" />
-                  </a>
-                  <button className="navbar-toggler" data-toggle="collapse" data-target="#beeToggler">
-                    <span className="navbar-toggler-icon">
-                      <i className="fa fa-bars"></i>
-                    </span>
-                  </button>
-                  <div className="collapse navbar-collapse" id="beeToggler">
-                    <ul className="navbar-nav ml-auto">
-                      <li>
-                        <a href="./Home.jsx">Home</a>
-                      </li>
-                      &nbsp;
-                      <li>
-                        <a href="./Project.jsx">Project</a>
-                      </li>
-                      &nbsp;
-                      <li>
-                        <a href="./Service.jsx">Service</a>
-                      </li>
-                      &nbsp;
-                      <li>
-                        <a href="#">Team</a>
-                      </li>
-                      &nbsp;
-                      <li>
-                        <a href="./blog.jsx">Blog</a>
-                      </li>
-                      &nbsp;
-                      <li>
-                        <a href="./ContactUs.jsx">
-                          <button className="nav-button">
-                            Contact Us <i className="fas fa-angle-right"></i>
-                          </button>
-                        </a>
-                      </li>
-                      &nbsp;
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-
-        {/* Header Navigation End */}
-
+      
         {/* Header Banner Start */}
         <div className="container header-content ">
           <div className="row h-100">
@@ -186,20 +133,7 @@ const Team = () => {
 
       {/* Team Call to Action End */}
 
-      {/* Footer Start */}
-
-      <section className="footer section-padding">
-        <div className="container">
-          <div className="row">
-            {/* Footer Widgets */}
-          </div>
-          <div className="row" style={{ borderTop: '1px solid #ddd', paddingTop: '10px' }}>
-
-            {/* Copyright */}
-          </div>
-        </div>
-      </section>
-      {/* Footer End */}
+     
     </>
   );
 };
