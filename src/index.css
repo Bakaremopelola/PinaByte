@@ -1,5 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
 
 *{
     margin: 0;
@@ -17,6 +19,7 @@ a:hover{
     padding: 70px;
 }
 /* Adding Fonts*/
+
 
 
 
@@ -48,7 +51,7 @@ a:hover{
     transition: 0.5s all ease;
 }
 button.nav-button{
-    background:#070A57;
+    background:turquoise;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 5px 10px;
@@ -64,7 +67,7 @@ button.nav-button{
     height: 100%;
 }
 .highlight{
-    color:#070A57;
+    color: turquoise;
 }
 .left-content h2 {
     font-family: 'Roboto', sans-serif;
@@ -83,7 +86,7 @@ button.nav-button{
     color: #64707D;
 }
 .call-to-action button {
-    background:#070A57;
+    background: turquoise;
     border: none;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
@@ -99,7 +102,7 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color:#070A57;
+    color: turquoise;
     text-decoration: underline;
     margin-left: 30px;
 }
@@ -134,7 +137,7 @@ a.card-body{
     text-decoration: underline;
 }
 
-/* why choose leadsbee */
+/* why choose pinabyte */
 
 .service-type-gap {
  padding-bottom: 8rem;
@@ -192,10 +195,9 @@ h2.col-md-6 {
 }
 
 .footer-widget-4 ul li a:hover {
-    color: #070A57;
+    color: turquoise;
     transition: all 0.5s ease-in-out;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -243,7 +245,7 @@ a:hover{
     transition: 0.5s all ease;
 }
 button.nav-button{
-    background:#070A57;
+    background:turquoise;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 5px 10px;
@@ -259,7 +261,7 @@ button.nav-button{
     height: 100%;
 }
 .highlight{
-    color:#070A57;
+    color: turquoise;
 }
 .left-content h2 {
     font-family: 'Roboto', sans-serif;
@@ -278,7 +280,7 @@ button.nav-button{
     color: #64707D;
 }
 .call-to-action button {
-    background: #070A57;
+    background: #FFBA00;
     border: none;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
@@ -294,7 +296,7 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color:#070A57;
+    color: #FFBA00;
     text-decoration: underline;
     margin-left: 30px;
 }
@@ -344,7 +346,7 @@ border-radius: 3%;
 }
 
 .card-header  {
-    background-color: #070A57;
+    background-color: #faea7e;
     
 }
 .card:hover{
@@ -355,7 +357,7 @@ border-radius: 3%;
 
 .process-block img {
     background: #FBF5E5;
-    border: 2px dotted #070A57;
+    border: 2px dotted #FFBA00;
     padding: 15px 20px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -399,7 +401,7 @@ border-radius: 3%;
         color: #64707D;}
         
         .project-discussion button {
-            background:#070A57;
+            background:#FFBA00;
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
             padding: 5px 10px;
@@ -414,7 +416,7 @@ border-radius: 3%;
             transform: scale(1.1);
             transition: 0.5s all ease;
         }
-        /* Work process syles finish */ 
+        /* Work process styles finish */ 
         
         /* Featured Designs */
         
@@ -484,6 +486,6 @@ border-radius: 3%;
 }
 
 .footer-widget-4 ul li a:hover {
-    color: #070A57;
+    color: #FFBA00;
     transition: all 0.5s ease-in-out;
 }

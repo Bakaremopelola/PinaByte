@@ -1,4 +1,8 @@
-import React from 'react';
+import Group1387 from "./Assets/image/Group1387.png"
+import Group1675 from "./Assets/image/Group1675.png"
+import Group1752 from "./Assets/image/Group1752.png"
+import { teamMembers } from "./Counter";
+ 
 
 const Team = () => {
   return (
@@ -19,7 +23,7 @@ const Team = () => {
             </div>
             <div className="col-md-6 centralize">
               <div className="right-content">
-                <img src="./asset/image/Group 1387.png" alt="" />
+                <img src={Group1387}/>
               </div>
             </div>
           </div>
@@ -32,13 +36,13 @@ const Team = () => {
         <div className="container">
           <div className="row service-type-gap">
             <div className="col-md-6 centralize">
-              <img src="./asset/image/Group 1675.png" className="img-fluid mb-5" />
+              <img src={Group1675} className="img-fluid mb-5" />
             </div>
             <div className="col-md-6 centralize">
               <div className="team-page-description">
                 <h2>Analysis</h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos standard dummy text ever
                   since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
                   five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
                   release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
@@ -52,7 +56,7 @@ const Team = () => {
               <div className="team-page-description">
                 <h2>UI/UX</h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos standard dummy text ever
                   since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
                   five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
                   release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
@@ -61,7 +65,7 @@ const Team = () => {
               </div>
             </div>
             <div className="col-md-6 centralize">
-              <img src="./asset/image/Group 1752.png" className="img-fluid" />
+              <img src={Group1752} className="img-fluid" />
             </div>
           </div>
         </div>
@@ -76,33 +80,39 @@ const Team = () => {
           </div>
         </div>
 
+
         <div className="container mt-5">
-          <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="team-card text-center">
-                <img src="./asset/image/team1.png" alt="" className="img-fluid" />
-                <h3>Latasha Hicks</h3>
-                <p>UI/UX Designer</p>
-                <ul>
-                  <li>
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i className="fab fa-github"></i></a>
-                  </li>
-                </ul>
-              </div>
+      <div className="row">
+        {teamMembers.map(member => (
+          <div key={member.id} className="col-lg-3 col-md-6">
+            <div className="team-card text-center">
+              <img src={member.imgSrc} alt={member.name} className="img-fluid" />
+              <h3>{member.name}</h3>
+              <p>{member.role}</p>
+              <ul>
+                <li>
+                  <a href={member.socialLinks.facebook}><i className="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href={member.socialLinks.instagram}><i className="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href={member.socialLinks.twitter}><i className="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href={member.socialLinks.github}><i className="fab fa-github"></i></a>
+                </li>
+              </ul>
             </div>
-            {/* Repeat the team cards with different data */}
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
+
+        
+            
+        
+      </section> 
 
       {/* Team Section End */}
 

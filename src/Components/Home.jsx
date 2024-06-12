@@ -1,8 +1,41 @@
-import React from 'react';
+// import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+// import React from 'react';
+import { FaAngleRight } from 'react-icons/fa';
+import Headervector from "./Assets/image/Headervector.svg"
+import discussion from "./Assets/image/discussion.svg"
+import web_design from "./Assets/image/web-design.svg"
+import meeting from "./Assets/image/meeting.jpg"
+// import { data } from './Counter';
+// import { slider } from './Counter';
+// import { BsArrowLeftCircleFill } from "react-icons/bs"
+// import { BsArrowRightCircleFill } from "react-icons/bs"
+// import { useState } from 'react';
+// import { row } from './Counter';
+// import { portfolio } from './Counter';
+import ServiceCarousel from './ServiceCarousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TestimonialSlider from './TestimonialSlider';
+import PortfolioSection from './PortfolioSection';
+import PartnersSection from './PartnerSection';
+
+
+
 
 const Home = () => {
+//   const [currentSlide, setCurrentSlide] = useState(0);
+//   const handleNext = () => {
+       
+//     setCurrentSlide(currentSlide === slider.length - 1 ? 0 : currentSlide + 1)
+
+// }
+// const handlePrev = () => {
+
+//   setCurrentSlide(currentSlide === 0 ? slider.length - 1 : currentSlide - 1)
+  
+// }
+
   return (
-    <div id='Home'>
+    <>
       {/* Header Start */}
       <section className="header ">
        
@@ -19,14 +52,14 @@ const Home = () => {
                   et fringilla id, volutpat id magna.
                 </p>
                 <div className="call-to-action">
-                  <button>Work With Us <i className="fas fa-angle-right"></i></button>
+                  <button>Work With Us<FaAngleRight/> </button>
                   <a href="#">View Our Portfolio <i className="fas fa-angle-right"></i></a>
-                </div>
+                </div>  
               </div>
             </div>
             <div className="col-md-6">
               <div className="right-content">
-                <img src="./asset/image/Header vector.svg" alt="" />
+                 <img src={Headervector} /> 
               </div>
             </div>
           </div>
@@ -41,21 +74,21 @@ const Home = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="process-block">
-                <img src="./asset/image/discussion.svg" alt="Project Discussion" />
+                <img src={discussion}  /> 
                 <h3>Project Discussion</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim.</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="process-block">
-                <img src="./asset/image/web-design.svg" alt="Project Discussion" />
-                <h3>Design & Deveopment</h3>
+                 <img src={web_design}  /> 
+                <h3>Design & Development</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim.</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="process-block">
-                <img src="./asset/image/web-design.svg" alt="Project Discussion" />
+                <img src={web_design}  />
                 <h3>Final Delivery</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim.</p>
               </div>
@@ -64,7 +97,7 @@ const Home = () => {
 
           <div className="row mt-5">
             <div className="col-md-5">
-              <img src="./asset/image/meeting.jpg" alt="Client discussion" className="img img-fluid" />
+              <img src={meeting} alt="Client discussion" className="img img-fluid" />
             </div>
             <div className="col-md-7 centralize">
               <div className="project-discussion ">
@@ -80,7 +113,7 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna diam, ultricies ut
                   ultricies eu, cursus quis libero. Sed maximus
                 </p>
-                <button>Let's Talk <i className="fas fa-angle-right"></i></button>
+                <button>Let&apos Talk <i className="fas fa-angle-right"></i></button>
               </div>
             </div>
           </div>
@@ -97,82 +130,25 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="container text-center mt-5">
-          <div className="row mx-auto my-auto">
-            <div id="myCarousel" className="carousel slide w-100" data-ride="carousel">
-              <div className=".service-carousel carousel-inner w-100" role="listbox">
-                {/* Carousel Items Here */}
-              </div>
-              {/* Carousel Controls */}
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Services End */}
 
-      {/* Testimonial Start */}
-      <section className="testimonial section-padding">
-        <div className="container">
-          <div className="card col-md-12 mt-2">
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="100000">
-              <div className="w-100 carousel-inner mb-5" role="listbox">
-                {/* Testimonial Carousel Items Here */}
-              </div>
-              {/* Testimonial Carousel Controls */}
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Testimonial End */}
+        <ServiceCarousel />
 
-       {/* Portfolio Start */}
-       <section className="portfolio section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h2 className="text-center portfolio-heading">My Company <span className="highlight">Work</span> </h2>
-            </div>
-          </div>
-        </div>
-        <div className="container mt-5">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="portfolio-buttons text-center">
-                {/* Portfolio Filter Buttons */}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container myMixCont text-center" data-ref="mixitup-container">
-          <div className="row d-flex justify-content-center ">
-            {/* Portfolio Images */}
-          </div>
-        </div>
-      </section>
-      {/* Partner Start */}
-      <section className="partners section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h2 className="text-center partner-heading">Business Partner Trusted
-                <span className="highlight"> By The World's</span></h2>
-            </div>
-          </div>
-          <div className="row mt-5">
-            {/* Partner Images */}
-          </div>
-        </div>
-      </section>
-      {/* Partner End */}
+       
+
+         <TestimonialSlider />
+
+         <PortfolioSection />
+
+         
+      <PartnersSection/>
 
 
-      
-    </div>
+      </section>
+    </>
   );
 }
 
 export default Home;
-
 
 
 

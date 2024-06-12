@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
-
-
-*Reset CSS*/
+/*Reset CSS*/
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +20,7 @@ a:hover{
 
 
 .header{
-    background: linear-gradient(-40deg, whitesmoke, #fff);
+    background: linear-gradient(-40deg, #FBF1D5, #fff);
     
 }
 
@@ -49,7 +47,7 @@ a:hover{
     transition: 0.5s all ease;
 }
 button.nav-button{
-    background:blue;
+    background: turquoise;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 5px 10px;
@@ -65,7 +63,7 @@ button.nav-button{
     height: 100%;
 }
 .highlight{
-    color: blue;
+    color: turquoise;
 }
 .left-content h2 {
     font-family: 'Roboto', sans-serif;
@@ -81,10 +79,10 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: whitesmoke;
+    color: #64707D;
 }
 .call-to-action button {
-    background:  #070A57;
+    background: turquoise;
     border: none;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
@@ -95,7 +93,7 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color:  #070A57;
+    color: turquoise;
     text-decoration: underline;
     margin-left: 30px;
 }
@@ -104,7 +102,7 @@ button.nav-button{
     padding-left: 30px;
 }
 
-/* Work process syles */
+/* Work process styles */
 
 .process-block {
     text-align: center;
@@ -113,7 +111,7 @@ button.nav-button{
 
 .process-block img {
     background: #FBF5E5;
-    border: 2px dotted  #070A57;
+    border: 2px dotted turquoise;
     padding: 15px 20px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -144,10 +142,10 @@ button.nav-button{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     line-height: 35px;
-    color: blue;}
+    color: #64707D;}
 
 .project-discussion button {
-    background: #070A57;
+    background:turquoise;
     border: none;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
@@ -235,14 +233,14 @@ button.nav-button{
 	text-decoration:underline;
 }
 .service-card a:hover{
-	color: #070A57;
+	color:turquoise;
 	transition:all 0.5s ease;
 }
 .service-control-prev, .service-control-next {
     height: 50px;
     width: 50px;
     outline: black;
-    background-color:  #070A57;
+    background-color: turquoise;
     background-size: 100%, 100%;
     border-radius: 3px;
 }
@@ -277,12 +275,12 @@ a.carousel-control-next.testimonial-control {
 	font-family: 'Roboto',sans-serif;
 	font-size: 45px;
 	font-weight: 500;
-	color:  #070A57;
+	color: turquoise;
     }
 
 
 .testimonial-control-icon {
-	background:#070A57;
+	background: turquoise;
 	color: #070A57;
 	height: 32px;
     width: 32px;
@@ -306,7 +304,7 @@ a.carousel-control-next.testimonial-control {
     position: absolute;
     top: 70%;
     left: -10%;
-    background: #070A57;
+    background: lightskyblue;
     padding: 20px;
 }
 
@@ -332,7 +330,7 @@ a.carousel-control-next.testimonial-control {
 }
 
 .portfolio-buttons button:hover {
-    color: #070A57;
+    color: turquoise;
 }
 
 .portfolio-buttons {
@@ -352,6 +350,26 @@ a.carousel-control-next.testimonial-control {
     font-weight: 500;
     color: #070A57;
 }
+.partners {
+    padding: 60px 0;
+}
+
+.partner-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: skyblue; /* Highlight color */
+}
+
+.partner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* Footer Styles */
 
@@ -400,13 +418,13 @@ section.footer.section-padding {
 }
 
 .footer-widget-4 ul li a:hover {
-    color: #070A57;
+    color: lightblue;
     transition: all 0.5s ease-in-out;
 }
 .copyright-text p {font-family: 'Roboto',sans-serif;font-size: 18px;font-weight: 400;color: #64707D;line-height: 40px;}
 .messenger i {
     color: #fff;
-    background: #070A57;
+    background: turquoise;
     font-size: 40px;
     padding: 5px 10px;
 }
@@ -422,11 +440,11 @@ section.footer.section-padding {
     max-height: 400px;
 }
 
-/* Office Blocs Styleing  */
+/* Office Blocs Styling  */
 
 .office-block {
     padding: 15px;
-    border: 2px dotted #070A57;
+    border: 2px dotted lightblue;
     text-align: center;
 }
 
@@ -450,7 +468,7 @@ section.footer.section-padding {
     /* to create space for placing icon*/
     padding: 20px 10px 20px 32px;
     border-color: transparent;
-    /* background-color: #070A57; */
+    /* background-color: lightskyblue; */
     border-radius: 4px;
     border: 1px solid #DDDDDD;
   }
@@ -459,7 +477,7 @@ section.footer.section-padding {
     margin-top: 5px;
     margin-bottom: 30px;
     padding: 15px 36px;
-    background-color: #070A57;
+    background-color: lightblue;
     border: 0px;
     color: #070A57;
     width: 100%;
@@ -523,7 +541,7 @@ a.card-body{
 	height:auto;
 }
 
-/* why choose leadsbee 
+/* why choose pinabyte 
 
 .service-type-gap {
  padding-bottom: 8rem;
@@ -564,7 +582,7 @@ section.header.contact-header {
 .blog-category p {
 	font-family: 'Roboto',sans-serif;
 	font-size: 14px;
-	color: #070A57;
+	color: turquoise;
 	line-height: 35px;
 	}
 
@@ -572,11 +590,11 @@ section.header.contact-header {
 	font-family: 'Roboto',sans-serif;
 	font-size: 26px;
 	font-weight: 500;
-	color:#070A57;
+	color: turquoise;
 	line-height: 35px;
 	}
 
-.blog-content p.blog-exercpt {
+.blog-content p.blog-excerpt {
 	font-family: 'Roboto',sans-serif;
 	font-size: 18px;
 	line-height: 35px;
@@ -616,18 +634,18 @@ section.header.contact-header {
 	color:#070A57 !important;
 }
 .pagination ul li.next{
-	background:#070A57;
+	background:turquoise;
 }
 p.sub-heading {font-family: 'Roboto',sans-serif;font-size: 20px;line-height: 35px;color: #070A57;padding-top: 20px;}
 
 form#newsletter-form input#client-mail {
     max-width: 500px;
-    border: 1px solid #070A57;
+    border: 1px solid turquoise;
     border-radius: 3px;
 }
 
 form#newsletter-form button,.team-counter button {
-    background:#070A57;
+    background: turquoise;
     border: none;
     padding: 5px 12px;
     font-family: 'Roboto',sans-serif;
@@ -640,12 +658,12 @@ form#newsletter-form button,.team-counter button {
 .portfolio-block {
     position: relative;
     margin-bottom:20px;
-    border: 2px solod red;
+    border: 2px solid lightblue;
 }
 
 .portfolio-overlay {
     position: absolute;
-    background:#070A57;
+    background: turquoise;
     height: 90%;
     width: 90%;
     top: 10px;
@@ -668,7 +686,7 @@ form#newsletter-form button,.team-counter button {
 
 
 section.portfolio-call-to-action {
-    background: whitesmoke;
+    background: #FFEEBF;
     text-align: center;
 }
 
@@ -690,7 +708,7 @@ button.project-button-1,button.project-button-2 {
 	margin-right:15px;
 }
 button.project-button-1{
-	background:#070A57;
+	background:turquoise;
 }
 button.project-button-2{
 	background:#fff;
@@ -728,7 +746,7 @@ button.project-button-2{
 }
 
 .team-card ul li a:hover {
-    color:#070A57;
+    color: turquoise;
     transition: all 0.5s;
 }
 
@@ -737,15 +755,22 @@ span.counter {font-family: 'Roboto',sans-serif;font-size: 45px;color: #070A57;}
 span.counter-plus {
     font-family: 'Roboto',sans-serif;
     font-size: 45px;
-    color:#070A57;
+    color: turquoise;
 }
 
-/* Project Page   */
+
+.row mx-auto my-auto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+ /* Project Page   */
 @media only screen and (max-width: 576px) {
     
     .left-content h2{
-        font-size: 45px;
-    }
+        font-size: 45px
+     }
+
     .service-heading{
         font-size: 35px;
     }
@@ -791,7 +816,7 @@ span.counter-plus {
   /* Team Page  */
 
   @media only screen and (max-width: 992px){
-    .achivement-item{
+    .achievement-item{
         margin-top: 45px;
     }
   }

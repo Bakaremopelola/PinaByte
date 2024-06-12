@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
                   <li><a href="#">Company</a></li>
                   <li><a href="#">Article</a></li>
                   <li><a href="#">Testimonial</a></li>
-                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">FAQ&apos</a></li>
                 </ul>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Services from './Components/Service';
@@ -9,6 +9,8 @@ import "./App.css";
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import { Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 

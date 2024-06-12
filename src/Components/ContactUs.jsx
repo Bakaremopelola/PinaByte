@@ -1,4 +1,6 @@
-import React from 'react';
+import Group1387 from "./Assets/image/Group1387.png"
+import Group4408 from "./Assets/image/Group4408.png"
+import PartnersSection from "./PartnerSection";
 
 const ContactUs = () => {
   return (
@@ -17,7 +19,7 @@ const ContactUs = () => {
             </div>
             <div className="col-md-6 centralize">
               <div className="right-content">
-                <img src="./asset/image/Group 1387.png" alt="" />
+                <img src={Group1387} alt="" />
               </div>
             </div>
           </div>
@@ -110,7 +112,7 @@ const ContactUs = () => {
 
             <div className="col-md-6 centralize">
               <div className="contact-image">
-                <img src="./asset/image/Group 4408.png" alt="" className="img-fluid ml-5" />
+                <img src={Group4408} alt="" className="img-fluid ml-5" />
               </div>
             </div>
           </div>
@@ -126,28 +128,10 @@ const ContactUs = () => {
               <h2 className="text-center partner-heading">Business Partner Trusted</h2>
             </div>
           </div>
-          <div className="row mt-5">
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center">
-              <div className="partner">
-                <img src="./asset/image/A (3).png" alt="" className="img-fluid" />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center">
-              <div className="partner">
-                <img src="./asset/image/A (4).png" alt="" className="img-fluid" />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center">
-              <div className="partner">
-                <img src="./asset/image/A (2).png" alt="" className="img-fluid" />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center">
-              <div className="partner">
-                <img src="./asset/image/A (1).png" alt="" className="img-fluid" />
-              </div>
-            </div>
-          </div>
+
+            <PartnersSection />
+
+
         </div>
       </section>
       {/* Partner End */}
